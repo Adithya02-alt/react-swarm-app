@@ -17,7 +17,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker build -t react-swarm-app .'
+                sh 'sudo docker build -t react-swarm-app .'
             }
         }
 
